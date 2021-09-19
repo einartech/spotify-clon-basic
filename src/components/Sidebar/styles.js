@@ -8,6 +8,7 @@ height:100vh;
 background-color:#000000;
 min-width:240px;
 color:#fff;
+
 border: 5px solid red;
 
 & img{
@@ -16,5 +17,10 @@ border: 5px solid red;
     margin-right: auto;
 }
 `
+const SidebarChoice = styled.img`
+`
 
-export{SidebarContainer}
+const SidebarChoiceT = styled.img`
+`
+
+export{SidebarContainer,SidebarChoice,SidebarChoiceT}

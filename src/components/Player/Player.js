@@ -10,7 +10,7 @@ import { SpotifyBody } from './styles';
 
 const Player = () => {
     return (
-        <>
+        <div>
         
         <SpotifyBody>
             <Sidebar/>
@@ -19,7 +19,7 @@ const Player = () => {
         
         <Footer/>
 
-        </>
+        </div>
     )
 }
 
