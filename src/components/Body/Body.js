@@ -6,7 +6,7 @@ import {BodyContainer} from './styles';
 const Body = () => {
     return (
         <BodyContainer>
-            body
+                <p>BODY</p>      
         </BodyContainer>
     )
 }
